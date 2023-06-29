@@ -1531,6 +1531,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.19.0, @babel/runtime@npm:^7.20.7":
+  version: 7.22.5
+  resolution: "@babel/runtime@npm:7.22.5"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 12a50b7de2531beef38840d17af50c55a094253697600cee255311222390c68eed704829308d4fd305e1b3dfbce113272e428e9d9d45b1730e0fede997eaceb1
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.12.7, @babel/template@npm:^7.16.7, @babel/template@npm:^7.3.3":
   version: 7.16.7
   resolution: "@babel/template@npm:7.16.7"
@@ -4072,16 +4081,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-icons/boxicons-regular@npm:^10.38.0":
-  version: 10.38.0
-  resolution: "@styled-icons/boxicons-regular@npm:10.38.0"
+"@styled-icons/boxicons-regular@npm:^10.47.0":
+  version: 10.47.0
+  resolution: "@styled-icons/boxicons-regular@npm:10.47.0"
   dependencies:
-    "@babel/runtime": ^7.15.3
-    "@styled-icons/styled-icon": ^10.6.3
+    "@babel/runtime": ^7.20.7
+    "@styled-icons/styled-icon": ^10.7.0
   peerDependencies:
     react: "*"
     styled-components: "*"
-  checksum: d64a1475bd6de9131278d2bab67d19b861a05320cd1068bf602f75a5d8a1cb599479aa4f23c62334e167c0241f5c00e0413b3861d81669509bd2cde7873985cd
+  checksum: 62d851c912141c13539762a28397c1f26ab29c9cf8cbe4048ce21b4430bd93f3c003525b25db53119fa086e6636991989ff9e717fa1490f07e07c63db329c60c
   languageName: node
   linkType: hard
 
@@ -4095,6 +4104,18 @@ __metadata:
     react: "*"
     styled-components: ">=4.1.0 <6"
   checksum: 6c60797f77446843205f8d218b5308d23b065c2db57fcf648216cb4cdaaf66763425b75d90379aa3facfaa913c2d0a50e3bd847c4bcdbbaa2add1a83d5a4caaf
+  languageName: node
+  linkType: hard
+
+"@styled-icons/styled-icon@npm:^10.7.0":
+  version: 10.7.0
+  resolution: "@styled-icons/styled-icon@npm:10.7.0"
+  dependencies:
+    "@babel/runtime": ^7.19.0
+  peerDependencies:
+    react: "*"
+    styled-components: ">=4.1.0 <6"
+  checksum: 3a3fe56240e5d4059bf4e740de3be10234f3fc5fd70249c387774623485823c8ba2cda2ef0280aa8417310ddec4a9e49dddd1642e4ee7502aacfa34c163754a2
   languageName: node
   linkType: hard
 
@@ -12632,7 +12653,7 @@ __metadata:
     "@mdx-js/mdx": ^1.6.22
     "@mdx-js/react": ^1.6.22
     "@styled-icons/boxicons-logos": ^10.38.0
-    "@styled-icons/boxicons-regular": ^10.38.0
+    "@styled-icons/boxicons-regular": ^10.47.0
     "@styled-icons/styled-icon": ^10.6.3
     "@stylelint/postcss-css-in-js": ^0.38.0
     "@testing-library/jest-dom": ^5.16.4
@@ -22354,6 +22375,13 @@ __metadata:
   version: 0.11.1
   resolution: "regenerator-runtime@npm:0.11.1"
   checksum: 3c97bd2c7b2b3247e6f8e2147a002eb78c995323732dad5dc70fac8d8d0b758d0295e7015b90d3d444446ae77cbd24b9f9123ec3a77018e81d8999818301b4f4
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.13.11":
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11"
+  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
   languageName: node
   linkType: hard
 
